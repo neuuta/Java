@@ -5,6 +5,7 @@ package Java.lab1;
  * Залікова №3310
  */
 public class lab1 {
+  // C7 = 3310 % 7 = 5
   char[][] B = {
       { 'a', 'b', 'c', 'd' },
       { 'e', 'f', 'g', 'h' },
@@ -17,7 +18,7 @@ public class lab1 {
   int cols = B[0].length;
 
   int[][] C = new int[rows][cols];
-
+  // C5 = 3310 % 5 = 0
   public lab1() {
     for (int i = 0; i < rows; i++) {
       for (int k = 0; k < cols; k++) {
@@ -35,7 +36,7 @@ public class lab1 {
       System.out.println();
     }
   }
-
+  // C5 = 3310 % 11 = 10
   public void averageValue() {
     int sum = 0;
     int count = 0;
