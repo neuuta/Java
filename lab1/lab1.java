@@ -1,4 +1,4 @@
-package Java.lab1;
+package lab1;
 
 /* 
  * ІО-33 Замковий Віталій
